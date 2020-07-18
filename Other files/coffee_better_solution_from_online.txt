@@ -1,0 +1,25 @@
+# Write your code here
+# resource available in machine
+print("Write how many ml of water the coffee machine has:")
+wat_available = int(input())
+print(" Write how many ml of milk the coffee machine has:")
+milk_available = int(input())
+print("Write how many grams of coffee beans the coffee machine has:")
+coffe_available = int(input())
+
+#cups of coffee that can be made with available resource
+water = (wat_available//200)
+milk = (milk_available//50)
+coffee = (coffe_available//15)
+have_cups = (min(water, milk, coffee))
+#check with user for number of coffee needed
+print("Write how many cups of coffee you will need:")
+no_cup = int(input())
+
+if have_cups == no_cup:
+        print(f"Yes, I can make that amount of coffee")
+elif have_cups % no_cup == 0:
+    extra = have_cups - no_cup
+    print(f"Yes, I can make that amount of coffee (and even {extra} more than that)")
+elif no_cup > have_cups:
+    print(f"No, I can make only {have_cups} cups of coffee")

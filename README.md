@@ -6,7 +6,7 @@ What can be better than a cup of coffee during a break? A coffee that you don’
 Jetbrains Academy Python Course
 
 ---
-The project is divided into 5 stages. I have provided the problem statements of each stage on seperate PDF files. Similary, the solution of each stage is also provided on seperate python files. 
+There are 5 stages in this project. I have provided the problem statements of all the stages on separate PDF files. Similarly, the solutions of these stages are provided on individual python files.
 ___
 
 ### Learning outcomes
